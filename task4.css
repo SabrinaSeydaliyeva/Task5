@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.page1 {
+    padding: 162px 357px 214px 122px;
+}
+
+.page1 h1 {
+    margin-bottom: 133px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+}
+
+.page1 ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.page1 li {
+    list-style-type: none;
+}
+
+.page1 li h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+
+}
+
+.page1 li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.page1 li:nth-child(1) {
+    width: 223px;
+}
+
+.page1 li:nth-child(2) {
+    width: 260px;
+}
+
+
+.page1 li:nth-child(3) {
+    width: 232px;
+}
+
+.page2 {
+    padding-left: 128px;
+    padding-bottom: 231px;
+}
+
+.page2 h1 {
+    margin-bottom: 62px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+}
+
+.page2 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.page2 ul {
+    width: 662px;
+}
+
+@media screen and (max-width:1024px){
+    .page1 {
+        padding: 93px 199px 127px 71px;
+    }
+
+    .page1 h1 {
+        margin-bottom: 70px;
+        font-size: 32px;
+    }
+
+    .page1 ul h2 {
+        font-size: 15px;
+    }
+    .page1 ul p {
+        font-size: 11px;
+
+    }
+
+    
+.page1 li:nth-child(1) {
+    width: 136px;
+}
+
+.page1 li:nth-child(2) {
+    width: 172px;
+}
+
+
+.page1 li:nth-child(3) {
+    width: 141px;
+}
+
+.page2 {
+    padding-left: 65px;
+    padding-bottom: 132px;
+}
+
+.page2 h1 {
+    margin-bottom: 35px;
+    margin-left: 5px;
+    font-size: 32px;
+}
+
+.page2 ul li {
+    font-size: 14px;
+}
+
+}
+    
+/*  768 mobile  */
